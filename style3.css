@@ -20,6 +20,6 @@ Date Updated:April 9,2025 -->
     input[type="text"] {
       width: 95%;}
 
-  { .container 
-      display flex;
+  .container{ 
+      display: flex;
       gap: 10px;  }
