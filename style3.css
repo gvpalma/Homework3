@@ -1,0 +1,25 @@
+  /*DOCTYPE CSS>
+<!-- Name:Gabriela Palma
+File:style3.css
+Date Created:March 29,2025
+Date Updated:April 9,2025 -->
+*/
+    body {
+      background-color: lightblue;
+      font-family: "Times New Roman", serif;
+      text-align: center;}
+    form {
+      background: white;
+      border-radius: 20px;
+      max-width: 400px;
+      margin: 20px auto; }
+    label, input[type="submit"], input[type="reset"] {
+      display: block;
+      margin: 10px 0; }
+
+    input[type="text"] {
+      width: 95%;}
+
+  { .container 
+      display flex;
+      gap: 10px;  }
