@@ -1,6 +1,6 @@
 
 function goToThankYouPage() {
-  window.location.href = "homework2-thankyou.html";}
+  window.location.href = "homework3-thankyou.html";}
 
 const currentDate = new Date();
 document.getElementById("today").innerHTML = currentDate.toLocaleDateString();
