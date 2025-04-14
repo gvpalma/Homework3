@@ -1,12 +1,10 @@
-//-------------------------------------------------------
-// Show today's date
-//-------------------------------------------------------
+
+// Show today's date //
+
 const currentDate = new Date();
 document.getElementById("today").innerHTML = currentDate.toLocaleDateString();
 
-//-------------------------------------------------------
-// Validate Entire Form (called onsubmit)
-//-------------------------------------------------------
+// Validate Entire Form //
 function validateForm() {
   let isValid = true;
 
@@ -30,9 +28,7 @@ function validateForm() {
   return isValid;
 }
 
-//-------------------------------------------------------
-// Validate First Name
-//-------------------------------------------------------
+// Validate First Name//
 function validateFirstname() {
   const firstNameInput = document.getElementById("firstname");
   const errorSpan = document.getElementById("firstname-error");
@@ -51,9 +47,7 @@ function validateFirstname() {
   }
 }
 
-//-------------------------------------------------------
-// Validate Middle Initial (optional, but if provided, 1 letter)
-//-------------------------------------------------------
+//Validate Middle Initial (optional)//
 function validateMiddleinit() {
   const middleInput = document.getElementById("middleinit");
   const errorSpan = document.getElementById("middleinit-error");
@@ -70,9 +64,7 @@ function validateMiddleinit() {
   }
 }
 
-//-------------------------------------------------------
-// Validate Last Name
-//-------------------------------------------------------
+// Validate Last Name //
 function validateLastname() {
   const lastNameInput = document.getElementById("lastname");
   const errorSpan = document.getElementById("lastname-error");
@@ -90,10 +82,7 @@ function validateLastname() {
     return true;
   }
 }
-
-//-------------------------------------------------------
-// Validate DOB
-//-------------------------------------------------------
+// Validate DOB //
 function validateDob() {
   const dobElement = document.getElementById("dob");
   const dobError = document.getElementById("dob-error");
@@ -118,9 +107,7 @@ function validateDob() {
   }
 }
 
-//-------------------------------------------------------
-// Validate SSN
-//-------------------------------------------------------
+// Validate SSN //
 function validateSsn() {
   const ssn = document.getElementById("ssn").value.trim();
   const errorSpan = document.getElementById("ssn-error");
@@ -138,9 +125,7 @@ function validateSsn() {
   }
 }
 
-//-------------------------------------------------------
-// Validate Address Line 1
-//-------------------------------------------------------
+// Validate Address Line 1 //
 function validateAddr1() {
   const addr1 = document.getElementById("addr1");
   const errorSpan = document.getElementById("addr1-error");
@@ -153,9 +138,7 @@ function validateAddr1() {
   }
 }
 
-//-------------------------------------------------------
-// Validate City
-//-------------------------------------------------------
+// Validate City //
 function validateCity() {
   const city = document.getElementById("city");
   const errorSpan = document.getElementById("city-error");
@@ -168,9 +151,7 @@ function validateCity() {
   }
 }
 
-//-------------------------------------------------------
-// Validate State
-//-------------------------------------------------------
+// Validate State //
 function validateState() {
   const stateInput = document.getElementById("state");
   const errorSpan = document.getElementById("state-error");
@@ -183,9 +164,7 @@ function validateState() {
   }
 }
 
-//-------------------------------------------------------
-// Validate Zip
-//-------------------------------------------------------
+// Validate Zip //
 function validateZip() {
   const zipInput = document.getElementById("zip");
   const zipError = document.getElementById("zip-error");
@@ -207,9 +186,7 @@ function validateZip() {
   return true;
 }
 
-//-------------------------------------------------------
-// Validate Phone Number
-//-------------------------------------------------------
+// Validate Phone Number //
 function validatePnumber() {
   const phoneInput = document.getElementById("pnumber");
   const phoneError = document.getElementById("pnumber-error");
@@ -231,9 +208,7 @@ function validatePnumber() {
   return true;
 }
 
-//-------------------------------------------------------
-// Validate Email
-//-------------------------------------------------------
+// Validate Email //
 function validateEmail() {
   const emailInput = document.getElementById("email");
   const emailError = document.getElementById("email-error");
@@ -252,9 +227,7 @@ function validateEmail() {
   }
 }
 
-//-------------------------------------------------------
-// Validate Username
-//-------------------------------------------------------
+// Validate Username //
 function validateUserid() {
   const useridInput = document.getElementById("userid");
   const errorSpan = document.getElementById("userid-error");
@@ -269,9 +242,7 @@ function validateUserid() {
   }
 }
 
-//-------------------------------------------------------
-// Validate Password (first field)
-//-------------------------------------------------------
+// Validate Password (first field) //
 function validatePword() {
   const pword = document.getElementById("pword");
   const errorSpan = document.getElementById("pword-error");
@@ -287,9 +258,7 @@ function validatePword() {
   }
 }
 
-//-------------------------------------------------------
-// Confirm Password (second field)
-//-------------------------------------------------------
+// Confirm Password (second field)//
 function confirmPword() {
   const pword = document.getElementById("pword").value;
   const conPword = document.getElementById("con_pword").value;
@@ -307,9 +276,7 @@ function confirmPword() {
   }
 }
 
-//-------------------------------------------------------
-// Review Input (shows a summary in an alert, no submit)
-//-------------------------------------------------------
+// Review Input (shows a summary in an alert, no submit)//
 function reviewInput() {
   const firstname = document.getElementById("firstname").value;
   const middleinit = document.getElementById("middleinit").value;
