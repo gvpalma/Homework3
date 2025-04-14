@@ -23,3 +23,7 @@ Date Updated:April 9,2025 -->
   .container{ 
       display: flex;
       gap: 10px;  }
+
+  .error {
+        color: red;
+      }
